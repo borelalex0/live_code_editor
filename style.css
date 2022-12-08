@@ -1,11 +1,13 @@
 body {
     text-align: center;
+    background-color: black;
+    color: whitesmoke;
   }
 
 textarea {
     width: 32%;
-    float: top;
-    min-height: 250px;
+    float: none;
+    min-height: 200px;
     overflow: scroll;
     margin: auto;
     display: inline-block;
@@ -13,6 +15,7 @@ textarea {
     outline: none;
     font-family: Courier, sans-serif;
     font-size: 14px;
+    border-radius: 5px;
   }
   
 iframe {
@@ -20,4 +23,6 @@ iframe {
     position: relative;
     width: 100%;
     height: 35em;
+    background-color: white;
+    border-radius: 5px;
   }
